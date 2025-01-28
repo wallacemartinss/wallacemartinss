@@ -39,8 +39,8 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
 ---
 
 ## 🔥 Projetos em Destaque  
-### [🛠️ Filament Tenant Core (boilerplate)](#)  
-Boilerplate FIlament Tenant 100% indegrado com a Stripe com diversas funcionalidades. Feito com **Laravel** **Filament PHP** e **MySQL**.  
+### [🛠️ Filament Tenant Core (boilerplate)](https://github.com/wallacemartinss/core_tenant)  
+Transforme sua aplicação em um verdadeiro SaaS com o Filament Tenant Core! Este boilerplate robusto é totalmente integrado com o Stripe para facilitar a gestão de assinaturas e pagamentos. Desenvolvido com **Laravel**, **Filament PHP** e **MySQL**, ele oferece uma base sólida para criar e escalar seu sistema multi-tenant de forma rápida e eficiente. Se você busca praticidade, escalabilidade e uma integração simples com o Stripe, este projeto é a escolha perfeita para seu próximo desenvolvimento! 🚀
 
 ---
 
