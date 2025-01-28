@@ -27,9 +27,9 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
 ---
 
 ## 👨‍💻 Sobre mim  
-- 💡 **Quem sou eu?** Um entusiasta por tecnologia e **Ethical Hacker** nas horas vagas.  
+- 💡 **Quem sou eu?** Um entusiasta por tecnologia, **Aeromodelismo**, **Eletrônica** e **Ethical Hacker** nas horas vagas.  
 - 🎯 **Foco atual:** Construir sistemas robustos com **Laravel**, **Filament PHP** e **arquiteturas SaaS**.  
-- 🌱 Sempre aprendendo! Explorando novas tecnologias e boas práticas para criar soluções modernas e eficientes.  
+- 🌱 **Sempre aprendendo!** Explorando novas tecnologias e boas práticas para criar soluções modernas e eficientes.  
 
 ---
 
