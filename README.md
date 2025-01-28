@@ -7,7 +7,6 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wallacemartinss&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=wallacemartinss&theme=dark&short_numbers=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-laravel" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
@@ -16,14 +15,11 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Rafa-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  
   <img align="center" alt="Rafa-docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
   <img align="center" alt="Rafa-linux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
   <img align="center" alt="Rafa-azure" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg">
   <img align="center" alt="Rafa-aws" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg">
-  
 </div>
-
 
 ---
 
@@ -36,15 +32,15 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
 
 ## 🌟 Habilidades e Tecnologias  
 - **Backend:** PHP (Laravel), Python  
-- **Banco de Dados:** MySQL, PostgreSQL  
+- **Banco de Dados:** MySQL, PostgreSQL, Sql  
 - **DevOps:** Docker, Git, CI/CD  
-- **Outros:** Filament PHP, Stripe API, segurança da informação  
+- **Outros:** Filament PHP, Stripe API, Livewire e segurança da informação  
 
 ---
 
 ## 🔥 Projetos em Destaque  
-### [🛠️ Sistema de Monitoramento de Combustíveis](#)  
-Monitore preços de combustíveis em tempo real, com relatórios precisos e análises detalhadas. Feito com **Laravel** e **MySQL**.  
+### [🛠️ Filament Tenant Core (boilerplate)](#)  
+Boilerplate FIlament Tenant 100% indegrado com a Stripe com diversas funcionalidades. Feito com **Laravel** **Filament PHP** e **MySQL**.  
 
 ---
 
