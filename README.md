@@ -7,7 +7,7 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wallacemartinss&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=wallacemartinss&theme=tokyonight)](https://git.io/streak-stats)
+![GitHub Streak](https://streak-stats.demolab.com/?user=wallacemartinss&theme=tokyonight)
 
 ---
 
