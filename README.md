@@ -8,7 +8,7 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
 </div>
 
 
-<div style="text-align: center;">
+<div align="center">
   <div style="display: inline-block;">
     <br>
     <img align="center" alt="Rafa-laravel" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
