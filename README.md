@@ -54,9 +54,9 @@ Docker Compose: Ambiente organizado, facilmente replicável e escalável.
 Aplicações Dockerizadas: Exemplo pronto para uso imediato e adaptável às suas necessidades.
 
 ✨ Benefícios
-✅ Facilidade: Configure rapidamente seu ambiente de desenvolvimento ou produção.
-✅ Segurança: Certificados HTTPS automáticos e gerenciamento seguro.
-✅ Escalabilidade: Expanda seu projeto facilmente com o Docker e Traefik.
+- ✅ Facilidade: Configure rapidamente seu ambiente de desenvolvimento ou produção.
+- ✅ Segurança: Certificados HTTPS automáticos e gerenciamento seguro.
+- ✅ Escalabilidade: Expanda seu projeto facilmente com o Docker e Traefik.
 
 ## ❤️ Support This Project
 
