@@ -58,6 +58,8 @@ Aplicações Dockerizadas: Exemplo pronto para uso imediato e adaptável às sua
 - ✅ Segurança: Certificados HTTPS automáticos e gerenciamento seguro.
 - ✅ Escalabilidade: Expanda seu projeto facilmente com o Docker e Traefik.
 
+---
+
 ## ❤️ Support This Project
 
 **If you find this project useful, please consider [sponsoring me on GitHub](https://github.com/sponsors/wallacemartinss)! on GitHub! — it helps keep the project active and maintained!**
