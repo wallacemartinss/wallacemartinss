@@ -45,6 +45,25 @@ Bem-vindo(a) ao meu cantinho do código! Aqui você encontrará uma coleção de
 ### [🛠️ Filament Tenant Core (boilerplate)](https://github.com/wallacemartinss/core_tenant)  
 Transforme sua aplicação em um verdadeiro SaaS com o Filament Tenant Core! Este boilerplate robusto é totalmente integrado com o Stripe para facilitar a gestão de assinaturas e pagamentos. Desenvolvido com **Laravel**, **Filament PHP** e **MySQL**, ele oferece uma base sólida para criar e escalar seu sistema multi-tenant de forma rápida e eficiente. Se você busca praticidade, escalabilidade e uma integração simples com o Stripe, este projeto é a escolha perfeita para seu próximo desenvolvimento! 🚀
 
+### [🚀 Infra completa com Docker e Traefik](https://github.com/wallacemartinss/Infra-com-Traefik)  
+Este projeto disponibiliza uma infraestrutura moderna e robusta utilizando Docker e Traefik, ideal para desenvolvedores que desejam facilidade, segurança e escalabilidade em seus ambientes de desenvolvimento e produção.
+
+🔥 O que você encontra aqui:
+Proxy Reverso com Traefik: Configuração automática, certificados HTTPS com Let's Encrypt, gerenciamento fácil e alta disponibilidade.
+Docker Compose: Ambiente organizado, facilmente replicável e escalável.
+Aplicações Dockerizadas: Exemplo pronto para uso imediato e adaptável às suas necessidades.
+
+✨ Benefícios
+✅ Facilidade: Configure rapidamente seu ambiente de desenvolvimento ou produção.
+✅ Segurança: Certificados HTTPS automáticos e gerenciamento seguro.
+✅ Escalabilidade: Expanda seu projeto facilmente com o Docker e Traefik.
+
+## ❤️ Support This Project
+
+**If you find this project useful, please consider [sponsoring me on GitHub](https://github.com/sponsors/wallacemartinss)! on GitHub! — it helps keep the project active and maintained!**
+
+Your sponsorship helps me dedicate more time to adding features, fixing bugs, and building open source tools for the community. Thank you for your support! 🙏
+
 ---
 
 ## 📫 Entre em Contato  
