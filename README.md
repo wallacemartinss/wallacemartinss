@@ -85,10 +85,19 @@ Database-driven onboarding: a checklist that follows the user across every page 
 ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?style=flat-square&logo=livewire&logoColor=white&labelColor=0B1120)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0B1120)
 
+**Mobile** &nbsp;&nbsp;&nbsp;&nbsp;
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white&labelColor=0B1120)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white&labelColor=0B1120)
+
 **Data** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=0B1120)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=0B1120)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=0B1120)
+
+**Cloud** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&labelColor=0B1120)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&labelColor=0B1120)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white&labelColor=0B1120)
 
 **Infra** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=0B1120)
@@ -96,7 +105,6 @@ Database-driven onboarding: a checklist that follows the user across every page 
 ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white&labelColor=0B1120)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white&labelColor=0B1120)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white&labelColor=0B1120)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&labelColor=0B1120)
 
 ## 📊 GitHub
 
@@ -106,7 +114,13 @@ Database-driven onboarding: a checklist that follows the user across every page 
 
 ## 👨‍💻 About
 
-Founder of **[Kronn.io](https://kronn.io)**. Before that — and still today — building with **Laravel**, **Filament** and multi-tenant **SaaS**.
+Founder of **[Kronn.io](https://kronn.io)**.
+
+Over **18 years in technology**, with a career built at the intersection of cloud infrastructure, IT governance and software development. I've worked at large private financial institutions — **Banco Next**, **Itaú Unibanco** and **Citigroup** — leading digital transformation projects that delivered millions in savings.
+
+Today I pair a solid foundation in **multicloud engineering** (Azure, AWS, GCP) with full-stack development in **Laravel** and mobile apps in **Flutter**. I hold **multiple Microsoft Azure certifications**, alongside **ITIL V3**, **ITIL RCV**, **Green Belt** and **Scrum** — a rare combination that lets me deliver everything from the infrastructure architecture down to the application code.
+
+**Trilingual** (Portuguese, Spanish and English), I've led international projects across **Colombia, Chile, Argentina, Uruguay and Australia**.
 
 Away from the keyboard: **RC aircraft** and **electronics**.
 
