@@ -48,7 +48,7 @@
       </circle>
       <text x="20" y="1" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace"
             font-size="14" letter-spacing="2.4" fill="#F59E0B" font-weight="600">
-        FOUNDER @ KRONN.IO · LARAVEL · FILAMENT · DEVOPS
+        FOUNDER @ KRONN.IO &amp; HUBDEV.IO · LARAVEL · FILAMENT · DEVOPS
       </text>
     </g>
 
@@ -64,11 +64,11 @@
     <!-- tagline -->
     <text x="64" y="209" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif"
           font-size="20" fill="#94A3B8">
-      Building <tspan fill="#E2E8F0" font-weight="600">Kronn.io</tspan> — server management and deploys, from your first VPS
+      Building <tspan fill="#E2E8F0" font-weight="600">Kronn.io</tspan>, server management from your first VPS to
     </text>
     <text x="64" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif"
           font-size="20" fill="#94A3B8">
-      to Kubernetes. Plus open source plugins for the Filament ecosystem.
+      Kubernetes, and <tspan fill="#E2E8F0" font-weight="600">HubDev.io</tspan>, one dev environment for every OS.
     </text>
 
     <!-- stat chips -->
@@ -92,30 +92,28 @@
 
     <!-- right: Kronn.io product card -->
     <g transform="translate(756, 74)" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
-      <rect x="0" y="0" width="396" height="192" rx="12" fill="#0F172A" fill-opacity="0.92" stroke="#1E293B"/>
+      <rect x="0" y="0" width="396" height="208" rx="12" fill="#0F172A" fill-opacity="0.92" stroke="#1E293B"/>
       <circle cx="20" cy="20" r="5" fill="#EF4444" fill-opacity="0.8"/>
       <circle cx="38" cy="20" r="5" fill="#F59E0B" fill-opacity="0.8"/>
       <circle cx="56" cy="20" r="5" fill="#22C55E" fill-opacity="0.8"/>
-      <text x="376" y="25" text-anchor="end" font-size="12" letter-spacing="1.5" fill="#475569">KRONN.IO</text>
+      <text x="376" y="25" text-anchor="end" font-size="12" letter-spacing="1.5" fill="#475569">PRODUCTS</text>
       <line x1="0" y1="40" x2="396" y2="40" stroke="#1E293B"/>
 
-      <circle cx="24" cy="65" r="4" fill="#22C55E">
-        <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+      <circle cx="24" cy="64" r="4" fill="#F59E0B">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <text x="40" y="70" font-size="15" fill="#E2E8F0">deploy</text>
-      <text x="108" y="70" font-size="15" fill="#475569">main → production</text>
+      <text x="40" y="69" font-size="14" letter-spacing="1.4" font-weight="700" fill="#F59E0B">KRONN.IO</text>
+      <text x="40" y="90" font-size="13" fill="#94A3B8">Deploy PHP · Node · Python · Go</text>
+      <text x="40" y="109" font-size="13" fill="#64748B">VPS → Swarm → Kubernetes, no SSH</text>
 
-      <text x="20" y="102" font-size="13" fill="#22C55E">✓</text>
-      <text x="42" y="102" font-size="13" fill="#94A3B8">PHP · Node · Python · Go · Docker</text>
+      <line x1="20" y1="128" x2="376" y2="128" stroke="#1E293B"/>
 
-      <text x="20" y="128" font-size="13" fill="#22C55E">✓</text>
-      <text x="42" y="128" font-size="13" fill="#94A3B8">VPS → Docker Swarm → Kubernetes</text>
-
-      <text x="20" y="154" font-size="13" fill="#22C55E">✓</text>
-      <text x="42" y="154" font-size="13" fill="#94A3B8">No SSH, no hand-written YAML</text>
-
-      <line x1="0" y1="170" x2="396" y2="170" stroke="#1E293B"/>
-      <text x="20" y="184" font-size="11" letter-spacing="1.2" fill="#F59E0B">→ KRONN.IO</text>
+      <circle cx="24" cy="150" r="4" fill="#38BDF8">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="40" y="155" font-size="14" letter-spacing="1.4" font-weight="700" fill="#38BDF8">HUBDEV.IO</text>
+      <text x="40" y="176" font-size="13" fill="#94A3B8">40+ services · native ↔ Docker</text>
+      <text x="40" y="195" font-size="13" fill="#64748B">Linux · Windows (no WSL) · macOS</text>
     </g>
 
     <rect x="0" y="336" width="1200" height="4" fill="url(#accent)"/>

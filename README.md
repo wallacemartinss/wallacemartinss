@@ -3,7 +3,8 @@
 </div>
 
 <div align="center">
-  <a href="https://kronn.io"><img src="https://img.shields.io/badge/Kronn.io-platform-F59E0B?style=flat-square&logo=serverfault&logoColor=white&labelColor=0B1120"></a>
+  <a href="https://kronn.io"><img src="https://img.shields.io/badge/Kronn.io-servers-F59E0B?style=flat-square&logo=serverfault&logoColor=white&labelColor=0B1120"></a>
+  <a href="https://hubdev.io"><img src="https://img.shields.io/badge/HubDev.io-dev_env-38BDF8?style=flat-square&logo=docker&logoColor=white&labelColor=0B1120"></a>
   <a href="https://wallacemartinss.dev"><img src="https://img.shields.io/badge/wallacemartinss.dev-website-94A3B8?style=flat-square&logo=aboutdotme&logoColor=white&labelColor=0B1120"></a>
   <a href="https://packagist.org/packages/wallacemartinss/"><img src="https://img.shields.io/badge/Packagist-packages-F28D1A?style=flat-square&logo=packagist&logoColor=white&labelColor=0B1120"></a>
   <a href="https://github.com/wallacemartinss?tab=followers"><img src="https://img.shields.io/github/followers/wallacemartinss?style=flat-square&logo=github&label=followers&color=1E293B&labelColor=0B1120"></a>
@@ -21,6 +22,17 @@ A platform in the Forge/Ploi category, built for everyone tired of choosing betw
 
 <div align="center">
   <a href="https://kronn.io"><img src="https://img.shields.io/badge/Explore_Kronn.io-0B1120?style=for-the-badge&logo=rocket&logoColor=F59E0B"></a>
+</div>
+
+## 🧪 HubDev — one environment, every OS, every service
+
+> **The universal dev environment for teams tired of setup hell.**
+> One binary, three OSes — first-class Linux, Windows (no WSL) and macOS — with **40+ services** and a **native ↔ Docker toggle per service, at runtime**.
+
+MySQL native for raw performance, Kafka in Docker for isolation, Redis native again — all in the same panel, switchable per service instead of all-or-nothing. GUI and CLI, from Postgres and MongoDB to Keycloak, ClickHouse, Kafka and Traefik.
+
+<div align="center">
+  <a href="https://hubdev.io"><img src="https://img.shields.io/badge/Explore_HubDev.io-0B1120?style=for-the-badge&logo=docker&logoColor=38BDF8"></a>
   <a href="https://wallacemartinss.dev"><img src="https://img.shields.io/badge/My_website-0B1120?style=for-the-badge&logo=firefoxbrowser&logoColor=94A3B8"></a>
 </div>
 
@@ -114,7 +126,7 @@ Database-driven onboarding: a checklist that follows the user across every page 
 
 ## 👨‍💻 About
 
-Founder of **[Kronn.io](https://kronn.io)**.
+Founder of **[Kronn.io](https://kronn.io)** and **[HubDev.io](https://hubdev.io)**.
 
 Over **18 years in technology**, with a career built at the intersection of cloud infrastructure, IT governance and software development. I've worked at large private financial institutions — **Banco Next**, **Itaú Unibanco** and **Citigroup** — leading digital transformation projects that delivered millions in savings.
 
