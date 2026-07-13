@@ -86,7 +86,7 @@
       <g transform="translate(364, 0)">
         <rect x="0" y="0" width="182" height="52" rx="10" fill="#0F172A" fill-opacity="0.85" stroke="#F59E0B" stroke-opacity="0.35"/>
         <text x="16" y="22" font-size="20" font-weight="700" fill="#F8FAFC">4</text>
-        <text x="16" y="40" font-size="11" letter-spacing="1.2" fill="#64748B">PUBLISHED PACKAGES</text>
+        <text x="16" y="40" font-size="11" letter-spacing="1.2" fill="#64748B">FILAMENT PLUGINS</text>
       </g>
     </g>
 

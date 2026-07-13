@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 232" width="900" height="232" role="img" aria-label="GitHub stats for wallacemartinss">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0A0E17"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="232" rx="14" fill="url(#cardBg)" stroke="#1E293B"/>
+  <line x1="452" y1="24" x2="452" y2="208" stroke="#1E293B"/>
+
+  <text x="32" y="36" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" font-weight="600" fill="#F59E0B">OVERVIEW</text>
+  <rect x="32" y="46" width="60" height="2" rx="1" fill="url(#rule)"/>
+    <text x="32" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Total stars</text>
+    <text x="420" y="74" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">263</text>
+    <text x="32" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Packagist downloads</text>
+    <text x="420" y="102" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">39k</text>
+    <text x="32" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Published packages</text>
+    <text x="420" y="130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">6</text>
+    <text x="32" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Public repositories</text>
+    <text x="420" y="158" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">9</text>
+    <text x="32" y="186" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Followers</text>
+    <text x="420" y="186" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">63</text>
+
+  <text x="484" y="36" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" font-weight="600" fill="#F59E0B">TOP LANGUAGES</text>
+  <rect x="484" y="46" width="60" height="2" rx="1" fill="url(#rule)"/>
+  <clipPath id="barClip"><rect x="484" y="66" width="384" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#barClip)">
+    <rect x="484" y="66" width="384" height="10" fill="#1E293B"/>
+    <rect x="484.0" y="66" width="328.9" height="10" fill="#4F5D95"/>
+    <rect x="812.9" y="66" width="33.7" height="10" fill="#f7523f"/>
+    <rect x="846.7" y="66" width="13.2" height="10" fill="#f1e05a"/>
+    <rect x="859.9" y="66" width="7.4" height="10" fill="#663399"/>
+    <rect x="867.3" y="66" width="2.0" height="10" fill="#384d54"/>
+  </g>
+    <circle cx="489" cy="104" r="5" fill="#4F5D95"/>
+    <text x="502" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#E2E8F0">PHP</text>
+    <text x="532.2" y="108" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#64748B">85.7%</text>
+    <circle cx="685" cy="104" r="5" fill="#f7523f"/>
+    <text x="698" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#E2E8F0">Blade</text>
+    <text x="743" y="108" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#64748B">8.8%</text>
+    <circle cx="489" cy="130" r="5" fill="#f1e05a"/>
+    <text x="502" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#E2E8F0">JavaScript</text>
+    <text x="584" y="134" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#64748B">3.4%</text>
+    <circle cx="685" cy="130" r="5" fill="#663399"/>
+    <text x="698" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#E2E8F0">CSS</text>
+    <text x="728.2" y="134" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#64748B">1.9%</text>
+    <circle cx="489" cy="156" r="5" fill="#384d54"/>
+    <text x="502" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#E2E8F0">Dockerfile</text>
+    <text x="584" y="160" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" fill="#64748B">0.2%</text>
+
+  <text x="868" y="214" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10" fill="#334155">auto-updated daily</text>
+</svg>

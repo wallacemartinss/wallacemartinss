@@ -5,7 +5,7 @@
 <div align="center">
   <a href="https://kronn.io"><img src="https://img.shields.io/badge/Kronn.io-platform-F59E0B?style=flat-square&logo=serverfault&logoColor=white&labelColor=0B1120"></a>
   <a href="https://wallacemartinss.dev"><img src="https://img.shields.io/badge/wallacemartinss.dev-website-94A3B8?style=flat-square&logo=aboutdotme&logoColor=white&labelColor=0B1120"></a>
-  <a href="https://packagist.org/packages/wallacemartinss/"><img src="https://img.shields.io/badge/Packagist-4_packages-F28D1A?style=flat-square&logo=packagist&logoColor=white&labelColor=0B1120"></a>
+  <a href="https://packagist.org/packages/wallacemartinss/"><img src="https://img.shields.io/badge/Packagist-packages-F28D1A?style=flat-square&logo=packagist&logoColor=white&labelColor=0B1120"></a>
   <a href="https://github.com/wallacemartinss?tab=followers"><img src="https://img.shields.io/github/followers/wallacemartinss?style=flat-square&logo=github&label=followers&color=1E293B&labelColor=0B1120"></a>
   <a href="https://github.com/sponsors/wallacemartinss"><img src="https://img.shields.io/badge/Sponsor-♥-EF4444?style=flat-square&logo=githubsponsors&logoColor=white&labelColor=0B1120"></a>
 </div>
@@ -100,8 +100,7 @@ Database-driven onboarding: a checklist that follows the user across every page 
 ## 📊 GitHub
 
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=wallacemartinss&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0A0E17&title_color=F59E0B&text_color=94A3B8&icon_color=F59E0B&ring_color=F59E0B"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wallacemartinss&layout=compact&langs_count=6&hide_border=true&bg_color=0A0E17&title_color=F59E0B&text_color=94A3B8"/>
+  <img src="assets/stats.svg" alt="GitHub and Packagist stats" width="100%">
 </div>
 
 ## 👨‍💻 About
