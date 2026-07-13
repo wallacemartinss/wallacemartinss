@@ -34,20 +34,20 @@ Packages I maintain on Packagist — **~38k downloads**, running in production o
 
 ### [Filament Icon Picker](https://github.com/wallacemartinss/filament-icon-picker)
 
-A modern icon picker for Filament v5, powered by `blade-ui-kit/blade-icons`. Instant search across any icon set.
-
 <a href="https://packagist.org/packages/wallacemartinss/filament-icon-picker"><img src="https://img.shields.io/packagist/dt/wallacemartinss/filament-icon-picker?style=flat-square&logo=packagist&logoColor=F59E0B&label=downloads&color=1E293B&labelColor=0B1120"></a>
 <img src="https://img.shields.io/github/stars/wallacemartinss/filament-icon-picker?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
+
+A modern icon picker for Filament v5, powered by `blade-ui-kit/blade-icons`. Instant search across any icon set.
 
 </td>
 <td width="50%" valign="top">
 
 ### [Filament Security](https://github.com/wallacemartinss/filament-security)
 
-Eight layers of protection: disposable email blocking, DNS/MX verification, RDAP domain age checks, single session enforcement, honeypot bot protection, Cloudflare IP blocking, malicious scan detection, and a real-time security event dashboard.
-
 <a href="https://packagist.org/packages/wallacemartinss/filament-security"><img src="https://img.shields.io/packagist/dt/wallacemartinss/filament-security?style=flat-square&logo=packagist&logoColor=F59E0B&label=downloads&color=1E293B&labelColor=0B1120"></a>
 <img src="https://img.shields.io/github/stars/wallacemartinss/filament-security?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
+
+Eight layers of protection: disposable email blocking, DNS/MX verification, RDAP domain age checks, single session enforcement, honeypot bot protection, Cloudflare IP blocking, malicious scan detection, and a real-time security event dashboard.
 
 </td>
 </tr>
@@ -56,20 +56,21 @@ Eight layers of protection: disposable email blocking, DNS/MX verification, RDAP
 
 ### [WhatsApp Connector](https://github.com/wallacemartinss/filament-whatsapp-conector)
 
-WhatsApp inside your panel through Evolution API v2: real-time QR Code connection, webhooks, media sending, and interactive messages (buttons, lists, PIX, carousel). Multi-tenant out of the box.
-
 <a href="https://packagist.org/packages/wallacemartinss/filament-whatsapp-conector"><img src="https://img.shields.io/packagist/dt/wallacemartinss/filament-whatsapp-conector?style=flat-square&logo=packagist&logoColor=F59E0B&label=downloads&color=1E293B&labelColor=0B1120"></a>
 <img src="https://img.shields.io/github/stars/wallacemartinss/filament-whatsapp-conector?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
+
+WhatsApp inside your panel through Evolution API v2: real-time QR Code connection, webhooks, media sending, and interactive messages (buttons, lists, PIX, carousel). Multi-tenant out of the box.
 
 </td>
 <td width="50%" valign="top">
 
-### [Filament Onboarding](https://github.com/wallacemartinss/filament-onboarding) &nbsp;<img src="https://img.shields.io/badge/new-22C55E?style=flat-square&labelColor=0B1120">
-
-Database-driven onboarding: a checklist that follows the user across every page of the panel, spotlight tours, and steps completed by watching a video — with watch time measured, not guessed. Journeys are authored in the panel, no deploy needed.
+### [Filament Onboarding](https://github.com/wallacemartinss/filament-onboarding)
 
 <a href="https://packagist.org/packages/wallacemartinss/filament-onboarding"><img src="https://img.shields.io/packagist/dt/wallacemartinss/filament-onboarding?style=flat-square&logo=packagist&logoColor=F59E0B&label=downloads&color=1E293B&labelColor=0B1120"></a>
 <img src="https://img.shields.io/github/stars/wallacemartinss/filament-onboarding?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
+<img src="https://img.shields.io/badge/new-22C55E?style=flat-square&labelColor=0B1120">
+
+Database-driven onboarding: a checklist that follows the user across every page of the panel, spotlight tours, and steps completed by watching a video — with watch time measured, not guessed. Journeys are authored in the panel, no deploy needed.
 
 </td>
 </tr>
@@ -95,7 +96,7 @@ Database-driven onboarding: a checklist that follows the user across every page 
 ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white&labelColor=0B1120)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white&labelColor=0B1120)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white&labelColor=0B1120)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=0B1120)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&labelColor=0B1120)
 
 ## 📊 GitHub
 
@@ -114,8 +115,8 @@ If any of these packages saved you time, consider [sponsoring me on GitHub](http
 <div align="center">
   <br>
   <a href="https://wallacemartinss.dev"><img src="https://img.shields.io/badge/Website-0B1120?style=for-the-badge&logo=firefoxbrowser&logoColor=F59E0B"></a>
+  <a href="https://x.com/wallacemartinss"><img src="https://img.shields.io/badge/@wallacemartinss-0B1120?style=for-the-badge&logo=x&logoColor=white"></a>
   <a href="https://www.youtube.com/wallacemartinss"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0B1120"></a>
-  <a href="https://www.instagram.com/wallacemartinss"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0B1120"></a>
   <a href="https://discord.com/users/wallacemartinss"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0B1120"></a>
   <a href="mailto:wallacemartinss@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1120"></a>
   <br><br>
