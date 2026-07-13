@@ -33,7 +33,6 @@ MySQL native for raw performance, Kafka in Docker for isolation, Redis native ag
 
 <div align="center">
   <a href="https://hubdev.io"><img src="https://img.shields.io/badge/Explore_HubDev.io-0B1120?style=for-the-badge&logo=docker&logoColor=38BDF8"></a>
-  <a href="https://wallacemartinss.dev"><img src="https://img.shields.io/badge/My_website-0B1120?style=for-the-badge&logo=firefoxbrowser&logoColor=94A3B8"></a>
 </div>
 
 ## 🧩 Open source plugins for Filament v5
