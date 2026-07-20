@@ -16,7 +16,7 @@
   <text x="32" y="36" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" font-weight="600" fill="#F59E0B">OVERVIEW</text>
   <rect x="32" y="46" width="60" height="2" rx="1" fill="url(#rule)"/>
     <text x="32" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Total stars</text>
-    <text x="420" y="74" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">281</text>
+    <text x="420" y="74" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">283</text>
     <text x="32" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Packagist downloads</text>
     <text x="420" y="102" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">41k</text>
     <text x="32" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Published packages</text>
