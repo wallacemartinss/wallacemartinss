@@ -18,7 +18,7 @@
     <text x="32" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Total stars</text>
     <text x="420" y="74" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">286</text>
     <text x="32" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Packagist downloads</text>
-    <text x="420" y="102" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">42k</text>
+    <text x="420" y="102" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">43k</text>
     <text x="32" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Published packages</text>
     <text x="420" y="130" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="15" font-weight="700" fill="#F8FAFC">6</text>
     <text x="32" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#94A3B8">Public repositories</text>
