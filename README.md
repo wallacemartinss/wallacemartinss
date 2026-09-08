@@ -87,6 +87,37 @@ Database-driven onboarding: a checklist that follows the user across every page 
 </tr>
 </table>
 
+## 🧰 Utilities
+
+Desktop tooling I wrote for my own Linux machine and kept open — GNOME, Hyprland and the terminal.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [cc-cockpit](https://github.com/wallacemartinss/cc-cockpit)
+
+<a href="https://pypi.org/project/cc-cockpit/"><img src="https://img.shields.io/pypi/v/cc-cockpit?style=flat-square&logo=pypi&logoColor=F59E0B&label=pypi&color=1E293B&labelColor=0B1120"></a>
+<a href="https://aur.archlinux.org/packages/cc-cockpit"><img src="https://img.shields.io/aur/version/cc-cockpit?style=flat-square&logo=archlinux&logoColor=38BDF8&label=aur&color=1E293B&labelColor=0B1120"></a>
+<img src="https://img.shields.io/github/stars/wallacemartinss/cc-cockpit?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
+
+A Claude Code usage panel for GNOME: tray indicator with a live rate-limit ring, a local dashboard and a terminal summary. 5h block, open sessions, projects, token mix and cache hit rate. Everything comes from what Claude Code already writes to `~/.claude` — no credentials, no API calls, nothing leaves the machine.
+
+</td>
+<td width="50%" valign="top">
+
+### [Omarchy RGB Keyboard](https://github.com/wallacemartinss/omarchy-rgb-keyboard)
+
+<img src="https://img.shields.io/badge/Omarchy-bar_widget-1E293B?style=flat-square&logo=hyprland&logoColor=38BDF8&labelColor=0B1120">
+<img src="https://img.shields.io/github/stars/wallacemartinss/omarchy-rgb-keyboard?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
+<img src="https://img.shields.io/badge/new-22C55E?style=flat-square&labelColor=0B1120">
+
+Keyboard RGB backlight control for Avell/Clevo laptops, straight from the Omarchy bar: nine colour presets, a live brightness slider, eight animated effects and an `rgbctl` CLI. Ships the DMI patch that makes `tuxedo-drivers` bind on non-TUXEDO hardware, a pacman hook so it survives upgrades, and a udev rule so nothing asks for `sudo` at runtime.
+
+</td>
+</tr>
+</table>
+
 ## 🛠️ Stack
 
 **Backend** &nbsp;&nbsp;
