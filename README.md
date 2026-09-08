@@ -37,7 +37,7 @@ MySQL native for raw performance, Kafka in Docker for isolation, Redis native ag
 
 ## 🧩 Plugins for Filament v5
 
-Open source packages on Packagist — <!-- downloads:start -->**75k downloads**<!-- downloads:end -->, running in production on other teams' apps — plus one commercial.
+Open source packages on Packagist — <!-- downloads:start -->**74k downloads**<!-- downloads:end -->, running in production on other teams' apps — plus one commercial.
 
 <table>
 <tr>
