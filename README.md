@@ -35,11 +35,29 @@ MySQL native for raw performance, Kafka in Docker for isolation, Redis native ag
   <a href="https://hubdev.io"><img src="https://img.shields.io/badge/Explore_HubDev.io-0B1120?style=for-the-badge&logo=docker&logoColor=38BDF8"></a>
 </div>
 
-## 🧩 Open source plugins for Filament v5
+## 🧩 Plugins for Filament v5
 
-Packages I maintain on Packagist — <!-- downloads:start -->**75k downloads**<!-- downloads:end -->, running in production on other teams' apps.
+Open source packages on Packagist — <!-- downloads:start -->**75k downloads**<!-- downloads:end -->, running in production on other teams' apps — plus one commercial.
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+### [WhatsApp MetaCloud Connector](https://github.com/wallacemartinss/whatsapp-metacloud-connector)
+
+<a href="https://filamentphp.com/plugins/wallacemartins-whatsapp-metacloud-connector"><img src="https://img.shields.io/badge/buy_on-filamentphp.com-F59E0B?style=flat-square&logo=filament&logoColor=F59E0B&labelColor=0B1120"></a>
+<img src="https://img.shields.io/badge/Meta_Cloud_API-official-1E293B?style=flat-square&logo=whatsapp&logoColor=25D366&labelColor=0B1120">
+<img src="https://img.shields.io/badge/Filament-v4_%2B_v5-1E293B?style=flat-square&logo=laravel&logoColor=F59E0B&labelColor=0B1120">
+<img src="https://img.shields.io/github/stars/wallacemartinss/whatsapp-metacloud-connector?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
+
+Meta's **official** WhatsApp Business Platform inside your panel — the Cloud API itself, not an unofficial bridge with a session that drops at 3am. A two-pane inbox, a visual template builder whose approval status updates itself from the webhook, contact labels, spreadsheet imports and campaigns aimed at those labels.
+
+It knows when a contact's 24-hour service window has closed and refuses a free-form send instead of letting Meta reject it. Credentials are encrypted per account, so one installation serves many tenants across many Meta apps. Fourteen languages — including Meta's error codes translated into sentences a person can act on — MySQL and PostgreSQL, Filament v4 and v5.
+
+Commercial licence, distributed from a private Composer registry; the repository above is the complete documentation.
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -70,7 +88,7 @@ Eight layers of protection: disposable email blocking, DNS/MX verification, RDAP
 <a href="https://packagist.org/packages/wallacemartinss/filament-whatsapp-conector"><img src="https://img.shields.io/packagist/dt/wallacemartinss/filament-whatsapp-conector?style=flat-square&logo=packagist&logoColor=F59E0B&label=downloads&color=1E293B&labelColor=0B1120"></a>
 <img src="https://img.shields.io/github/stars/wallacemartinss/filament-whatsapp-conector?style=flat-square&logo=github&label=stars&color=1E293B&labelColor=0B1120">
 
-WhatsApp inside your panel through Evolution API v2: real-time QR Code connection, webhooks, media sending, and interactive messages (buttons, lists, PIX, carousel). Multi-tenant out of the box.
+WhatsApp inside your panel through Evolution API v2: real-time QR Code connection, webhooks, media sending, and interactive messages (buttons, lists, PIX, carousel). Multi-tenant out of the box. The unofficial route — a phone pairs by QR Code, so there is no Meta app and no template approval to wait on. For the official Cloud API, see the connector above.
 
 </td>
 <td width="50%" valign="top">

@@ -6,6 +6,9 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const USER = 'wallacemartinss';
+// Plugins Filament que não vivem no Packagist e por isso não entram na contagem
+// automática: o whatsapp-metacloud-connector é comercial, distribuído por registry privado.
+const COMMERCIAL_FILAMENT_PLUGINS = 1;
 const TOKEN = process.env.GITHUB_TOKEN;
 
 const gh = async (path) => {
@@ -181,7 +184,7 @@ const big = (n) => `${fmt(n).toUpperCase()}+`;
 // rather than publishing a card that claims the downloads vanished overnight.
 const heroEdits = [
   [statAnchor('stars'), big(stars)],
-  [statAnchor('plugins'), String(filamentPackages || 4)],
+  [statAnchor('plugins'), String((filamentPackages || 4) + COMMERCIAL_FILAMENT_PLUGINS)],
 ];
 packagistOk = packagistOk && downloads > 0;
 if (packagistOk) heroEdits.unshift([statAnchor('downloads'), big(downloads)]);
