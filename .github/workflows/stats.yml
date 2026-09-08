@@ -25,14 +25,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit if the card changed
+      - name: Commit if any figure changed
         run: |
-          if git diff --quiet -- assets/stats.svg; then
+          files="assets/stats.svg assets/hero.svg README.md"
+          if git diff --quiet -- $files; then
             echo "No change."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
-          git commit -m "chore: refresh stats card"
+          git add $files
+          git commit -m "chore: refresh stats, hero card and download count"
+          git pull --rebase --autostash
           git push

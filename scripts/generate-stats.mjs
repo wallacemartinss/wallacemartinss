@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-// Renders assets/stats.svg from live GitHub + Packagist data.
+// Renders assets/stats.svg and refreshes the hardcoded figures in assets/hero.svg
+// and README.md from live GitHub + Packagist data.
 // No third-party service, no rate-limited shared instance: the card lives in this repo.
 
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 
 const USER = 'wallacemartinss';
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -54,18 +55,28 @@ const topLangs = Object.entries(bytes)
   .slice(0, 6)
   .map(([lang, n], i) => ({ lang, pct: (n / totalBytes) * 100, color: colorFor(lang, i) }));
 
-// Packagist downloads across every published package.
+// Packagist downloads across every published package, with the Filament plugins
+// tallied apart — the README section talks about those specifically.
 let downloads = 0;
 let packages = 0;
+let filamentDownloads = 0;
+let filamentPackages = 0;
+let packagistOk = true;
 try {
   const list = await fetch(`https://packagist.org/packages/list.json?vendor=${USER}`).then((r) => r.json());
   for (const name of list.packageNames ?? []) {
     const pkg = await fetch(`https://packagist.org/packages/${name}.json`).then((r) => r.json());
-    downloads += pkg.package?.downloads?.total ?? 0;
+    const total = pkg.package?.downloads?.total ?? 0;
+    downloads += total;
     packages++;
+    if (name.startsWith(`${USER}/filament-`)) {
+      filamentDownloads += total;
+      filamentPackages++;
+    }
   }
 } catch {
   // Packagist hiccup: keep the card renderable, just without the downloads figure.
+  packagistOk = false;
 }
 
 // ── render ────────────────────────────────────────────────────────────────────
@@ -144,6 +155,46 @@ ${legend}
 `;
 
 writeFileSync(new URL('../assets/stats.svg', import.meta.url), svg);
+
+// ── refresh the figures written by hand elsewhere ─────────────────────────────
+// The hero card and the README prose used to carry numbers typed once and left
+// to rot. Both now expose an anchor the script rewrites: data-stat="…" in the
+// SVG, <!-- key:start -->…<!-- key:end --> in the Markdown.
+
+const rewrite = (path, edits) => {
+  const url = new URL(path, import.meta.url);
+  const before = readFileSync(url, 'utf8');
+  let after = before;
+  for (const [pattern, value] of edits) {
+    if (!pattern.test(after)) throw new Error(`${path}: no anchor matching ${pattern}`);
+    after = after.replace(pattern, (_, open, close) => `${open}${value}${close}`);
+  }
+  if (after !== before) writeFileSync(url, after);
+  return after !== before;
+};
+
+const statAnchor = (key) => new RegExp(`(<text data-stat="${key}"[^>]*>)[^<]*(</text>)`);
+const mdAnchor = (key) => new RegExp(`(<!-- ${key}:start -->)[\\s\\S]*?(<!-- ${key}:end -->)`);
+const big = (n) => `${fmt(n).toUpperCase()}+`;
+
+// A Packagist outage zeroes the download counters; leave the old figures alone
+// rather than publishing a card that claims the downloads vanished overnight.
+const heroEdits = [
+  [statAnchor('stars'), big(stars)],
+  [statAnchor('plugins'), String(filamentPackages || 4)],
+];
+packagistOk = packagistOk && downloads > 0;
+if (packagistOk) heroEdits.unshift([statAnchor('downloads'), big(downloads)]);
+
+const heroChanged = rewrite('../assets/hero.svg', heroEdits);
+const readmeChanged = packagistOk
+  ? rewrite('../README.md', [[mdAnchor('downloads'), `**${fmt(filamentDownloads)} downloads**`]])
+  : false;
+
 console.log(
   `stats.svg written — ${stars}★, ${fmt(downloads)} downloads, ${packages} packages, ${owned.length} repos, ${topLangs.length} langs`,
+);
+console.log(
+  `hero.svg ${heroChanged ? 'updated' : 'unchanged'}, README.md ${readmeChanged ? 'updated' : 'unchanged'}` +
+    (packagistOk ? '' : ' (Packagist unreachable — download figures kept)'),
 );
